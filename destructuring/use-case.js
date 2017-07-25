@@ -1,5 +1,5 @@
 makeSound({
-	
+	species: 'dog',
 	weight: 34,
 	sound: 'woof'
 });
@@ -10,6 +10,7 @@ makeSound({
 	make the species property optional 
 */ 
 
+//Normal implementation
 function makeSound(options){
 	options.species = options.species || 'animal';
 	console.log("The " + options.species + " makes a " + options.sound + " sound!");
