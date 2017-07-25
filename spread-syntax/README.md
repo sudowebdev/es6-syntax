@@ -73,3 +73,6 @@ With spread syntax the above can be written as:
 	var mergedObj = { ...obj1, ...obj2 };
 	// Object { foo: "baz", x: 42, y: 13 }
 
+## For more
+
+**[Refer here](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)**
