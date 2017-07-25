@@ -22,3 +22,8 @@ There are **three main differences** between **rest parameters and the arguments
 2. the arguments object is not a real array, while rest parameters are Array instances, meaning methods like sort, map, forEach or pop can be applied on it directly.
 3. the arguments object has additional functionality specific to itself (like the callee property).
 
+
+## For more
+
+**[Refer here](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters)**
+
