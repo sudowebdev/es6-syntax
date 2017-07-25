@@ -40,6 +40,11 @@ It enables you to mention **backticks** and **${** inside template literals:
 	> `\${}`
 	'${}'
 
+### Line terminators in template literals
 
+Line terminators in template literals are **always LF (\n)**.
 
+	const str = `BEFORE
+	AFTER`;
+	console.log(str === 'BEFORE\nAFTER'); // true
 
