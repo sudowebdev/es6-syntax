@@ -107,3 +107,6 @@ See the example in **destructuring/destructuring.js**
 *By options object I mean object that you pass in a function which is a single object  that might or might not contain several properties.*  
 
 See the implementation in **destructuring/use-case.js**
+
+## For more
+***[Click here](https://youtu.be/PB_d3uBkQPs?list=PL0zVEGEvSaeHJppaRLrqjeTPnCH6vw-sm)***
