@@ -74,3 +74,7 @@ Thus, the name before the content in backticks is the **name of a function** to 
 Template strings are known **statically (at compile time), substitutions are only known at runtime**. 
 
 The **tag function** can do with its parameters as it pleases: It can completely ignore the template strings, return values of any type, etc.
+
+## For more information
+
+**[Read this](http://wesbos.com/tagged-template-literals/)**
