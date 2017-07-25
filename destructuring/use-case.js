@@ -1,5 +1,5 @@
 makeSound({
-	species: 'dog',
+	
 	weight: 34,
 	sound: 'woof'
 });
@@ -15,5 +15,5 @@ function makeSound(options){
 	console.log("The " + options.species + " makes a " + options.sound + " sound!");
 
 	//With species: The dog makes a woof sound!
-
+	//Without species: The animal makes a woof sound!
 }
