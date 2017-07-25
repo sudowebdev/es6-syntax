@@ -1,5 +1,5 @@
 makeSound({
-	species: 'dog',
+	
 	weight: 34,
 	sound: 'woof'
 });
@@ -11,11 +11,12 @@ makeSound({
 */ 
 
 //Normal implementation
+/*
 function makeSound(options){
-	/*
-		options.species = options.species || 'animal';
-		console.log("The " + options.species + " makes a " + options.sound + " sound!");
-	*/
+	
+	//options.species = options.species || 'animal';
+	//console.log("The " + options.species + " makes a " + options.sound + " sound!");
+
 
 	//to make it more viable
 	let species = options.species || 'animal';
@@ -25,3 +26,15 @@ function makeSound(options){
 	//With species: The dog makes a woof sound!
 	//Without species: The animal makes a woof sound!
 }
+*/
+
+//Using destructuring
+function makeSound(options){
+	let { species, sound } = options;
+	species = species || 'animal';
+	console.log("The " + species + " makes a " + sound + " sound!");
+
+	//With species: The dog makes a woof sound!
+	//Without species: The animal makes a woof sound!
+}
+
