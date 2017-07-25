@@ -23,6 +23,23 @@ Template literals are **string literals** that can stretch **across multiple** l
 
 The literal itself is delimited by **backticks (`) (key below Esc)**, the interpolated expressions inside the literal are delimited by ${ and }. Template literals **always produce strings**.
 
+### Escaping in template literals
+
+The **backslash** is used for **escaping inside template literals**.
+It enables you to mention **backticks** and **${** inside template literals:
+
+
+	> `\``
+	'`'
+	> `$` // OK
+	'$'
+	> `${`
+	SyntaxError
+	> `\${`
+	'${'
+	> `\${}`
+	'${}'
+
 
 
 
