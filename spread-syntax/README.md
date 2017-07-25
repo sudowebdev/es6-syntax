@@ -5,15 +5,15 @@
 
 ## Syntax
 
-*For function calls*:
+### For function calls:
 
 	myFunction(...iterableObj);
 
-*For array literals*:
+### For array literals:
 
 	[...iterableObj, 4, 5, 6];
 
-*For object literals (new in ECMAScript; stage 3 draft)*:	
+### For object literals (new in ECMAScript; stage 3 draft):	
 
 	let objClone = { ...obj };
 
